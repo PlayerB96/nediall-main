@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%22);
+
+.Container{
+    width: 100%; 
+    .btn{
+        background-color: white;
+        color: black;
+        padding: 8px 33px;
+        font-family: Montserrat;
+        text-align: center;
+        text-decoration: none;
+        border: 1.39px solid #6421FF;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 16px;
+        margin: 25px 20px 10px 20px;
+        transition-duration: 0.5s;
+    }
+    .btn:hover{
+        background-color:  rgba(100, 33, 255, 1);
+        color: white;
+    }
+    .tittle{
+        font-family: Montserrat;
+        margin-bottom: 0px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .tittle1{
+        font-family: Montserrat;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+}
+.Container-img{
+    display: flex;
+    flex-direction: column;
+    
+    .Rectangle{
+        margin: 0px auto;
+        width: 70%;
+    }
+    .enlace{
+        background-color: #6421FF;
+        color: white;
+        padding: 10px 17px;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        width: 150px;
+        height: 22px;
+        margin: 0px auto 60px auto;
+
+/* identical to box height */
+    }
+}
+.Container-line{
+    display: inline-block;
+    flex-direction: row;
+    .Line{
+        
+        margin-top: 0px;
+        padding: 0px 3px 12px 3px;
+        height: 3px;
+        margin-left: 2px;
+    }
+}

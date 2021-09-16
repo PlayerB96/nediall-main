@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%22);
+
+.tittleInfoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .descriptionContainer {
+        margin-top: 12%;
+        margin-left: 5%;
+    }
+    .textDescription {
+        color: white;
+        font-size: 57px;
+        font-weight: 605;
+        font-family: "Montserrat";
+    }
+    .man {
+        order: 2;
+        width: 420px;
+        height: 100%;
+        margin-top: 5%;
+        margin-right: 19%;
+    }
+
+    .buttonsFlex {
+        margin-top: 8%;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+
+        .buttonA {
+            background: #ed1e79;
+            margin-left: 0;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            padding-left: 18px;
+            padding-right: 18px;
+            color: white;
+            font-weight: 600;
+            font-size: 32px;
+            font-family: "Montserrat";
+        }
+
+        .buttonB {
+            background: #3d12c4;
+            margin-left: 50px;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            padding-left: 100px;
+            padding-right: 100px;
+            color: white;
+            font-weight: 600;
+            font-size: 32px;
+            font-family: "Montserrat";
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .tittleInfoContainer {
+        .textDescription {
+            font-size: 10px;
+        }
+        .man {
+            width: 82px;
+            height: 100%;
+            margin-top: 5%;
+            margin-right: 19%;
+        }
+
+        .buttonsFlex {
+            .buttonA {
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 4px;
+                padding-right: 4px;
+                font-weight: 600;
+                font-size: 7px;
+            }
+
+            .buttonB {
+                margin-left: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-weight: 600;
+                font-size: 7px;
+            }
+        }
+    }
+}

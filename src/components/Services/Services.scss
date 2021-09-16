@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%22);
+
+.bannerContainerA {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    min-height: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    
+
+    .backgroundLeft {
+        font-family: "Montserrat";
+        font-size: 40px;
+        font-weight: 700;
+        position: relative;
+        background-color: #ffffff;
+        width: 550px;
+        height: 500px;
+        border: 2px solid;
+    }
+    .bannerImg {
+        position: relative;
+        width: 550px;
+        height: 250px;
+        background-color: #6421FF;
+        
+    }
+    .texto {
+        position: relative;
+        width: 550px;
+        height: 170px;
+        color: #6421FF;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .img-center {
+        display: block;
+        position: relativa;
+        padding-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .textop {
+        position: relative;
+        width: 550px;
+        height: 10px;
+        bottom: 80px;
+        color: #6421FF;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+}
+.Container-img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+    .Rectangle{
+        margin: 0px auto;
+        width: 70%;
+    }
+    .enlace{
+        background-color: #6421FF;
+        color: white;
+        padding: 10px 17px;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        width: 150px;
+        height: 22px;
+        margin: 0px auto 60px auto;
+
+/* identical to box height */
+    }
+}

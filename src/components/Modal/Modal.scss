@@ -1,0 +1,45 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(89, 135, 194, 0.645);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    .modalContainer {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        width: 100%;
+        max-width: 40rem;
+        .exitBtn {
+            // transform: translateX(98%);
+            // transform: translateY(10px);
+            transform: translate(98%,10px);
+        }
+
+        .exitBtn button {
+            background-color: red;
+            border: none;
+        }
+        .form {
+            background: #ffffff;
+            box-shadow: 9px -7px 12px rgba(0, 0, 0, 0.15);
+            padding: 5rem 4rem;
+            display: flex;
+            flex-direction: column;
+            font-family: "Montserrat";
+            grid-gap: 1.5rem;
+        }
+        .footer {
+            
+            transform: translate(40%,-50px);
+        }
+
+        .footer button {
+        }
+    }
+}

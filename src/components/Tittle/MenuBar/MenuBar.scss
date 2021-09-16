@@ -1,0 +1,36 @@
+.menuBarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .tittleText {
+        color: white;
+        font-size: 48px;
+        font-weight: 650;
+        text-decoration: underline;
+        text-underline-offset: 0.1em;
+        margin-top: 3%;
+        margin-left: 5.5%;
+    }
+
+    .btnBar {
+        width: 70px;
+        height: auto;
+        margin-top: 2%;
+        margin-right: 13%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .menuBarContainer{
+        .tittleText {
+            font-size: 12px;
+        }
+
+        .btnBar {
+            width: 20px;
+        }
+    } 
+
+    
+}
